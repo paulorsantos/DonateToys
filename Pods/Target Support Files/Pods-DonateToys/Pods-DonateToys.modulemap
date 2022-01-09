@@ -1,0 +1,6 @@
+framework module Pods_DonateToys {
+  umbrella header "Pods-DonateToys-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22AF2429265B4FDF001FA691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF2428265B4FDF001FA691 /* AppDelegate.swift */; };
+		22AF242B265B4FDF001FA691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF242A265B4FDF001FA691 /* SceneDelegate.swift */; };
+		22AF2432265B4FE5001FA691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AF2431265B4FE5001FA691 /* Assets.xcassets */; };
+		22AF2435265B4FE5001FA691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AF2433265B4FE5001FA691 /* LaunchScreen.storyboard */; };
+		22E42874265B50EF00A00CBB /* ToysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E42873265B50EF00A00CBB /* ToysTableViewController.swift */; };
+		22E42876265B52A400A00CBB /* ToyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E42875265B52A400A00CBB /* ToyFormViewController.swift */; };
+		22EE9807265B5332008ED39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EE9805265B5332008ED39E /* Main.storyboard */; };
+		7673CAD60805BF2CB23B68DA /* Pods_DonateToys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085F76786096CB5B89229AE4 /* Pods_DonateToys.framework */; };
+		C1703AB82789B6D500B977D6 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1703AB72789B6D500B977D6 /* Toy.swift */; };
+		C1BD0E56278B2EEA0088632C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD0E55278B2EEA0088632C /* Config.swift */; };
+		C1D46CCB278A4E3100E17505 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D46CCA278A4E3100E17505 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		085F76786096CB5B89229AE4 /* Pods_DonateToys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonateToys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AF2425265B4FDF001FA691 /* DonateToys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateToys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AF2428265B4FDF001FA691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22AF242A265B4FDF001FA691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22AF2431265B4FE5001FA691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22AF2434265B4FE5001FA691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22AF2436265B4FE5001FA691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E42873265B50EF00A00CBB /* ToysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysTableViewController.swift; sourceTree = "<group>"; };
+		22E42875265B52A400A00CBB /* ToyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyFormViewController.swift; sourceTree = "<group>"; };
+		22EE9806265B5332008ED39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A4223157FE481D19C7C8B0B /* Pods-DonateToys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateToys.debug.xcconfig"; path = "Target Support Files/Pods-DonateToys/Pods-DonateToys.debug.xcconfig"; sourceTree = "<group>"; };
+		9812DF145E291EDC000E921F /* Pods-DonateToys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateToys.release.xcconfig"; path = "Target Support Files/Pods-DonateToys/Pods-DonateToys.release.xcconfig"; sourceTree = "<group>"; };
+		C1703AB72789B6D500B977D6 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		C1BD0E55278B2EEA0088632C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C1D46CCA278A4E3100E17505 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22AF2422265B4FDF001FA691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7673CAD60805BF2CB23B68DA /* Pods_DonateToys.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AF241C265B4FDF001FA691 = {
+			isa = PBXGroup;
+			children = (
+				22AF2427265B4FDF001FA691 /* DonateToys */,
+				22AF2426265B4FDF001FA691 /* Products */,
+				3E8379000743D0756D73677E /* Pods */,
+				9B3293463EDA50691E88E378 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22AF2426265B4FDF001FA691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22AF2425265B4FDF001FA691 /* DonateToys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AF2427265B4FDF001FA691 /* DonateToys */ = {
+			isa = PBXGroup;
+			children = (
+				C1D46CCA278A4E3100E17505 /* GoogleService-Info.plist */,
+				C1E6F510278407640095A069 /* Listing */,
+				C1E6F50E278406840095A069 /* Main */,
+				C1E6F512278407CD0095A069 /* Visualization */,
+				C1E6F516278408A90095A069 /* Shared */,
+				22EE9805265B5332008ED39E /* Main.storyboard */,
+				22AF2431265B4FE5001FA691 /* Assets.xcassets */,
+				22AF2433265B4FE5001FA691 /* LaunchScreen.storyboard */,
+				22AF2436265B4FE5001FA691 /* Info.plist */,
+			);
+			path = DonateToys;
+			sourceTree = "<group>";
+		};
+		3E8379000743D0756D73677E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A4223157FE481D19C7C8B0B /* Pods-DonateToys.debug.xcconfig */,
+				9812DF145E291EDC000E921F /* Pods-DonateToys.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B3293463EDA50691E88E378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085F76786096CB5B89229AE4 /* Pods_DonateToys.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E6F50E278406840095A069 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6F50F278406FD0095A069 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1E6F50F278406FD0095A069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22AF2428265B4FDF001FA691 /* AppDelegate.swift */,
+				22AF242A265B4FDF001FA691 /* SceneDelegate.swift */,
+				C1BD0E55278B2EEA0088632C /* Config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1E6F510278407640095A069 /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6F511278407700095A069 /* Controller */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		C1E6F511278407700095A069 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22E42873265B50EF00A00CBB /* ToysTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1E6F512278407CD0095A069 /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6F513278407E50095A069 /* Controller */,
+			);
+			path = Visualization;
+			sourceTree = "<group>";
+		};
+		C1E6F513278407E50095A069 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22E42875265B52A400A00CBB /* ToyFormViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1E6F516278408A90095A069 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6F5172784093E0095A069 /* Model */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C1E6F5172784093E0095A069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1703AB72789B6D500B977D6 /* Toy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22AF2424265B4FDF001FA691 /* DonateToys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AF2439265B4FE5001FA691 /* Build configuration list for PBXNativeTarget "DonateToys" */;
+			buildPhases = (
+				9F5BD4543A9D08C2700E74CC /* [CP] Check Pods Manifest.lock */,
+				22AF2421265B4FDF001FA691 /* Sources */,
+				22AF2422265B4FDF001FA691 /* Frameworks */,
+				22AF2423265B4FDF001FA691 /* Resources */,
+				BBC6C0349D755489419336CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonateToys;
+			productName = Carangas;
+			productReference = 22AF2425265B4FDF001FA691 /* DonateToys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22AF241D265B4FDF001FA691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					22AF2424265B4FDF001FA691 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 22AF2420265B4FDF001FA691 /* Build configuration list for PBXProject "DonateToys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22AF241C265B4FDF001FA691;
+			productRefGroup = 22AF2426265B4FDF001FA691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AF2424265B4FDF001FA691 /* DonateToys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AF2423265B4FDF001FA691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EE9807265B5332008ED39E /* Main.storyboard in Resources */,
+				C1D46CCB278A4E3100E17505 /* GoogleService-Info.plist in Resources */,
+				22AF2435265B4FE5001FA691 /* LaunchScreen.storyboard in Resources */,
+				22AF2432265B4FE5001FA691 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F5BD4543A9D08C2700E74CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonateToys-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC6C0349D755489419336CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonateToys/Pods-DonateToys-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonateToys/Pods-DonateToys-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonateToys/Pods-DonateToys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AF2421265B4FDF001FA691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E42874265B50EF00A00CBB /* ToysTableViewController.swift in Sources */,
+				22E42876265B52A400A00CBB /* ToyFormViewController.swift in Sources */,
+				C1703AB82789B6D500B977D6 /* Toy.swift in Sources */,
+				22AF2429265B4FDF001FA691 /* AppDelegate.swift in Sources */,
+				22AF242B265B4FDF001FA691 /* SceneDelegate.swift in Sources */,
+				C1BD0E56278B2EEA0088632C /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22AF2433265B4FE5001FA691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AF2434265B4FE5001FA691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		22EE9805265B5332008ED39E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EE9806265B5332008ED39E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22AF2437265B4FE5001FA691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22AF2438265B4FE5001FA691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22AF243A265B4FE5001FA691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4223157FE481D19C7C8B0B /* Pods-DonateToys.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DonateToys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.unyleya.DonateToys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22AF243B265B4FE5001FA691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9812DF145E291EDC000E921F /* Pods-DonateToys.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DonateToys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.unyleya.DonateToys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AF2420265B4FDF001FA691 /* Build configuration list for PBXProject "DonateToys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AF2437265B4FE5001FA691 /* Debug */,
+				22AF2438265B4FE5001FA691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AF2439265B4FE5001FA691 /* Build configuration list for PBXNativeTarget "DonateToys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AF243A265B4FE5001FA691 /* Debug */,
+				22AF243B265B4FE5001FA691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22AF241D265B4FDF001FA691 /* Project object */;
+}
